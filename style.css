@@ -1,0 +1,128 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  text-align: center;
+  background-size: 100% 43%;
+  
+}
+
+.child_div{
+  background-color: hsl(0, 0%, 100%);
+  width: 450px;
+  height: 710px;
+  margin: 100px auto 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 25px 25px hsl(227, 74%, 89%);
+}
+
+#child_divtitle {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 45px auto 25px;
+}
+
+.info {
+
+    
+    font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+  color: hsl(224, 23%, 55%);
+  padding: 0 75px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.plan-container {
+  background-color: hsl(225, 100%, 98%);
+  height: 100px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin: 25px 50px 35px;
+}
+
+.plan-icon {
+  width: 50px;
+  height: 50px;
+  padding: 5px 20px 0 25px;
+}
+
+.plan.col {
+  padding-right: 60px;
+}
+
+.plan-type {
+  font-size: 1rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-price {
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-change-btn {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  background-color: inherit;
+  border: none;
+  padding-left: 80px;
+  cursor: pointer;
+}
+
+.plan-change-btn:hover {
+  color: hsl(245, 83%, 68%);
+  text-decoration: none;
+}
+
+.payment-btn {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  display: block;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto 35px;
+  padding: 15px 96px;
+  cursor: pointer;
+  box-shadow: 0 20px 15px hsl(225, 100%, 94%);
+}
+
+.payment-btn:hover {
+  background-color: hsl(245, 83%, 68%);
+  box-shadow: 0 20px 15px hsl(240, 91%, 95%);
+}
+
+.cancel-btn {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
